@@ -1,0 +1,64 @@
+/* Membuat seluruh halaman rapi di tengah screen */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Warna abu-abu background Facebook */
+  font-family: Arial, sans-serif;
+}
+
+/* Kontainer utama kotak login */
+.login-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  text-align: center; /* Membuat logo ke tengah */
+}
+
+/* Mengatur ukuran dan warna Logo Facebook */
+#logo {
+  font-size: 60px;
+  color: #1877f2; /* Biru khas Facebook */
+  margin-bottom: 20px;
+}
+
+/* Styling untuk Input_01 dan Input_02 */
+#input_01, #input_02 {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border: 1px solid #e4e6eb; /* Garis abu-abu tipis seperti gambar */
+  border-radius: 8px;        /* Sudut melengkung halus */
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+/* Efek saat kolom input diklik */
+#input_01:focus, #input_02:focus {
+  border-color: #1877f2; /* Garis berubah biru saat aktif */
+}
+
+/* Styling Tombol Login */
+#button_login {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1877f2; /* Biru solid Facebook */
+  border: none;
+  border-radius: 8px;        /* Sudut melengkung tombol */
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+/* Efek saat tombol login disentuh pointer */
+#button_login:hover {
+  background-color: #166fe5; /* Biru sedikit lebih gelap saat di-hover */
+}
